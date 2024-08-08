@@ -1,7 +1,6 @@
 ---
 title: 手把手教你轻松手写防抖和节流🔥
 date: 2023-1-1
-image: /bg.jpg
 categories:
   - 前端
 tags:
@@ -11,7 +10,7 @@ sticky: 1
 ---
 
 
-![alt text](/bg.jpg)
+![alt text](/logo1.jpg)
 
 <!-- more -->
 
