@@ -1,3 +1,20 @@
+---
+title: 手把手教你轻松手写防抖和节流🔥
+date: 2023-1-1
+image: /images/bg.jpg
+categories:
+  - 前端
+tags:
+  - JavaScript
+  - 手写
+sticky: 1 
+---
+
+
+![alt text](bg.jpg)
+
+<!-- more -->
+
 __try-catch 能捕获异步代码中的错误吗？__
 <br>try catch 不能捕获异步任务中的错误。因为 try-catch 是同步代码，在 event-loop 中，同步代码优先于异步代码执行， 因此 try-catch 执行完后，异步任务还没开始执行，所以无法捕获到其中的错误。想要捕获异步任务中的错误，可以在异步任务重中使用 try-catch。
 
@@ -6,7 +23,7 @@ __try-catch 能捕获异步代码中的错误吗？__
 
 
 
-* 数据类型的隐式转化
+## 数据类型的隐式转化
 
 不同数据类型转换为字符串的情况
 >1. null => "null"
@@ -29,7 +46,7 @@ __try-catch 能捕获异步代码中的错误吗？__
 
 * 原型链
 
-prototype 和 `__proto__`
+## prototype 和 `__proto__`
 >1. prototype，显示原型，只有函数才有。本质上是一个引用，指向函数的原型对象。
 >2. __proto__，隐式原型，实例上存在。本质上也是一个引用，指向创建该实例的构造函数的原型对象。
 

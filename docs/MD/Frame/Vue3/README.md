@@ -1,3 +1,14 @@
+---
+title: 手把手教你轻松手写防抖和节流🔥
+date: 2023-1-1
+categories:
+  - 前端
+tags:
+  - JavaScript
+  - 手写
+sticky: 7
+---
+
 * vue2 和 vue3 响应式的区别？
 >* vue2: Object.defineProperty 只对对象初始的属性有效，对新增的属性无效
 >* vue3: 利用 ES6 的 proxy 对数据进行代理，对新增的属性也有效

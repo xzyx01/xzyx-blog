@@ -1,3 +1,15 @@
+---
+title: 手把手教你轻松手写防抖和节流🔥
+date: 2023-1-1
+img: logo.png
+categories:
+  - 前端
+tags:
+  - JavaScript
+  - 手写
+sticky: 9
+---
+
 [掘金原文](https://juejin.cn/post/7089271039842058253?searchId=20240325092953DDC0218125331A81F146)
 
 * name 属性

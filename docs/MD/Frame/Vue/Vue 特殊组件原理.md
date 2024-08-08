@@ -1,3 +1,14 @@
+---
+title: 手把手教你轻松手写防抖和节流🔥
+date: 2023-1-1
+categories:
+  - 前端
+tags:
+  - JavaScript
+  - 手写
+sticky: 5
+---
+
 1. keep-alive 的原理<br>
 >1. keep-alive 的使用场景：<br>
 >比如说一个带搜索框的列表页，搜索完后进入其中某一项的详情页，再返回的时候，搜索条件就会丢失。这个时候如果我们想保留搜索条件，就可以使用 keep-alive
