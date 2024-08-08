@@ -10,7 +10,7 @@ sticky: 1
 ---
 
 
-![alt text](/logo1.jpg)
+![alt text](https://pic4.zhimg.com/80/v2-7db75659e0d54bac8dd5d79adf4011f3_1440w.webp)
 
 <!-- more -->
 
