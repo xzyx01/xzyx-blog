@@ -1,0 +1,22 @@
+{
+  "name": "nu-docs",
+  "version": "1.0.0",
+  "description": "Some Doc About Frond End",
+  "main": "index.js",
+  "author": "ZHD",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vue-template-compiler": "^2.7.14",
+    "vuepress-theme-reco": "^1.6.17"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
