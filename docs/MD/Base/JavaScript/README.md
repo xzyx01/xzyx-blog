@@ -10,7 +10,7 @@ sticky: 1
 ---
 
 
-![alt text](/images/bg.jpg)
+![alt text](/bg.jpg)
 
 <!-- more -->
 
