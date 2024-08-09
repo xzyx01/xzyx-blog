@@ -1,64 +1,20 @@
-// 顶部菜单
-const TopNav = [
-    /// 首页
+/// 顶部菜单
+const topNav = [
     {
         text: "首页",
         link: "/"
     },
-    // /// 基础
-    // {
-    //     text: "Base",
-    //     items: [
-    //         { text: "JavaScript", link: "/MD/Base/JavaScript/" },
-    //         { text: "TypeScript", link: "/MD/Base/TypeScript/"},
-    //         { text: "CSS", link: "/MD/Base/CSS/"},
-    //         { text: "HTML", link: "/MD/Base/HTML/"},
-    //         { text: "Browser", link: "/MD/Base/Browser/"}
-    //     ]
-    // },
-    // /// 移动端
-    // {
-    //     text: "Phone",
-    //     items: [
-    //         { text: "Flutter", link: "/MD/Phone/"},
-    //         { text: "uni-app", link: "/MD/Phone/uni-app 基础"}
-    //     ]
-    // },
-    // /// PC 端
-    // {
-    //     text: "PC",
-    //     items: [
-    //         { text: "LargeScreen", link: "/MD/PC/"}
-    //     ]
-    // },
-    // /// 框架
-    // {
-    //     text: "Frame",
-    //     items: [
-    //         { text: "React", link: "/MD/Frame/React/"},
-    //         { text: "Vue2", link: "/MD/Frame/Vue/"},
-    //         { text: "Vue3", link: "/MD/Frame/Vue3/"}
-    //     ]
-    // },
-    // /// 模块化
-    // {
-    //     text: "Module",
-    //     items: [
-    //         { text: "Webpack", link: "/MD/Module/Webpack/"}
-    //     ]
-    // },
-    // /// 工具
-    // {
-    //     text: "IDE",
-    //     items: [
-    //         { text: "Git", link: "/MD/IDE/"}
-    //     ]
-    // },
-    /// Gitee
-    { text: '我的', items: [
-        { text: "Gitee", link: 'https://gitee.com/xzyx01'},
-        { text: "Github", link: "https://github.com/xzyx01"}
-    ] }
+    {
+        text: "踩坑",
+        link: "/MD/踩坑/亲测有效的方法链接"
+    },
+    { 
+        text: '我的', 
+        items: [
+            { text: "Gitee", link: 'https://gitee.com/xzyx01'},
+            { text: "Github", link: "https://github.com/xzyx01"}
+        ] 
+    },
 ];
 
 
@@ -119,21 +75,20 @@ module.exports = {
     },
     themeConfig: {
     author: "xzyx",
-        nav: TopNav,
-        // sidebar: LeftNav
+        nav: topNav,
         subSidebar: "auto",
         type: "blog",
         logo: "/logo.png",
         authorAvatar: "/logo.png",
         blogConfig: {
-            nav: TopNav,
+            nav: topNav,
             category: {
               location: 2, // 在导航栏菜单中所占的位置，默认2
-              text: "博客", // 默认文案 “分类”
+              text: "文章", // 默认文案 “分类”
             },
             tag: {
               location: 3, // 在导航栏菜单中所占的位置，默认4
-              text: "Tag", // 默认文案 “标签”
+              text: "标签", // 默认文案 “标签”
             },
           },
     },
