@@ -12,7 +12,8 @@ const topNav = [
         text: '我的', 
         items: [
             { text: "Gitee", link: 'https://gitee.com/xzyx01'},
-            { text: "Github", link: "https://github.com/xzyx01"}
+            { text: "Github", link: "https://github.com/xzyx01"},
+            { text: "npm", link: "https://www.npmjs.com/settings/344300zhd/packages"}
         ] 
     },
 ];
