@@ -1,2 +1,9 @@
-const arr = [1, 2, [4, 5], 6, 7, [8]];
-console.log(arr.flat())
+function fn(){
+    let a = 0;
+    return function (){
+        console.log(a++)
+    }
+}
+let res = fn();
+res();
+res();
